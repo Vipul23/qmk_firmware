@@ -23,4 +23,8 @@
 #define ENCODER_DEFAULT_POS 0x3
 
 /* Enable caps-lock LED */
-#define CAPS_LOCK_LED_INDEX 45
+#define CAPS_LOCK_LED_INDEX { 45, 72, 73, 74 }
+
+/* No need when lock switch is not there */
+#undef LOCKING_SUPPORT_ENABLE
+#undef LOCKING_RESYNC_ENABLE

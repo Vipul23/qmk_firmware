@@ -17,7 +17,7 @@
     "bootloader": "stm32-dfu",
     "features": {
         "bootmagic": true,
-        "mousekey": true,
+        "mousekey": false,
         "extrakey": true,
         "nkro": true,
         "encoder": true,
